@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
+<title>Park Website Replica</title>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-sm bg-black position-fixed w-20">
+        
+        <div class="container-fluid">
+            <div class="navbar-brand text-white">
+                <h3>Sherrier Park</h3>
+            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="map">Map</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Background Picture -->
+    <section>
+        <div>
+            <img src="Park Pictures/bird-eye-view-park-unsplash.jpg" alt="bird eye view of park" class="background">
+        </div>
+    </section>
+
+    <!-- Main Page -->
+
+    <div class="container">
+        <div class="text-black text-center bg-light"><h2 id="#gallery">Gallery</h2></div>
+        <div class="row g-2 mt-4">
+            <div class="col col-6 bg-black">
+                <div class="box box-1 text-black bg-light">
+                    <h5>Brittany Blossom Park</h5>
+                </div>
+                <img src="Park Pictures/P1-unsplash.jpg" alt="Picture of park walkway with green lush trees">
+                <form>
+                    <label for="picture-1" class="form-label">Rate</label>
+                    <input type="range" id="picture-1" class="form-range">
+                    <button>Submit</button>
+                </form>
+            </div>
+            <div class="col col-6 bg-black">
+                <div class="box box-2 text-black bg-light">
+                    <h5>Timothy Terrain Field</h5>
+                </div>
+                <img src="Park Pictures/P2-unsplash.jpg" alt="Picture of open field fenced in for dogs">
+                <form>
+                    <label for="picture-2" class="form-label">Rate</label>
+                    <input type="range" id="picture-2" class="form-range">
+                    <button>Submit</button>
+                </form>
+            </div>
+            <div class="col col-6 bg-black">
+                <div class="box box-3 text-black bg-light">
+                    <h5>Darla Duck Pond</h5>
+                </div>
+                <img src="Park Pictures/P3-unsplash.jpg" alt="Picture of pond with bench next to walkway around the pond">
+                <form>
+                    <label for="picture-3" class="form-label">Rate</label>
+                    <input type="range" id="picture-3" class="form-range">
+                    <button>Submit</button>
+                </form>
+            </div>
+            <div class="col col-6 bg-black">
+                <div class="box box-4 text-black bg-light">
+                    <h5>Matthew Mega Garden</h5>
+                </div>
+                <img src="Park Pictures/veronica-reverse-qYwyRF9u-uo-unsplash.jpg" alt="Center shot of walkway with bench and hedges with garden">
+                <form>
+                    <label for="picture-4" class="form-label">Rate</label>
+                    <input type="range" id="picture-4" class="form-range">
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Section -->
+
+    <section>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="text-black text-center bg-light"><h3 id="#map">Sherrier Park Map</h3></div>
+                <img src="Park Pictures/map-unsplash.jpg" alt="Map picutre of Sherrier Park" id="mapimg">
+            </div>
+        </div>
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

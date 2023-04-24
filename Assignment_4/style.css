@@ -1,0 +1,15 @@
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+    justify-content: center;
+}
+
+label {
+    background-color: lightblue;
+}
+
+button {
+    background-color: orange
+}
